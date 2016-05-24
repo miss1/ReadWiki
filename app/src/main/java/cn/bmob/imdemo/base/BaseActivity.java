@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.orhanobut.logger.Logger;
@@ -19,6 +20,7 @@ import org.greenrobot.eventbus.Subscribe;
 
 import butterknife.ButterKnife;
 import cn.bmob.imdemo.Config;
+import cn.bmob.imdemo.view.MyProgressBar;
 
 /**基类
  * @author :smile
@@ -58,6 +60,8 @@ public class BaseActivity extends FragmentActivity {
 
     }
 
+    public MyProgressBar myProgressBar = new MyProgressBar();
+    public ProgressBar progressBar;
     protected void initView() {}
 
     protected void runOnMain(Runnable runnable) {

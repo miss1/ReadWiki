@@ -46,6 +46,8 @@
         <activity android:name=".ui.SearchUserActivity" />
         <activity android:name=".ui.UserInfoActivity"/>
         <activity android:name=".ui.NewFriendActivity"/>
+        <activity android:name=".ui.PostWriteActivity"/>
+        <activity android:name=".ui.PostCommentActivity"/>
 
         <activity
             android:name=".ui.ChatActivity"
